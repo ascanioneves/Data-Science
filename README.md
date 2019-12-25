@@ -2,6 +2,6 @@
 Data Science Library (just for fun)
 
 ### Install libraries 
-  ´´´bash
+  ´´´c
      python -m pip install library_name --user
   ´´´
