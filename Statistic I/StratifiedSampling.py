@@ -7,7 +7,7 @@ iris = pandas.read_csv('iris.csv')
 #print(iris['class'].value_counts()) #frequencia
 
 # separando os registros da base de dados
-# x guardara o primeiro parametro e y o terceiro
+# x guardará o primeiro parametro e y o terceiro
 x, _, y, _ = train_test_split(iris.iloc[:, 0:4], iris.iloc[:, 4], test_size = 0.5, stratify = iris.iloc[:, 4])
 #print(iris.iloc[:, 4])
 print(x)
